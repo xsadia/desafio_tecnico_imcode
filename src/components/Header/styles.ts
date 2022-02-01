@@ -5,8 +5,8 @@ export const HeaderContainer = styled.header`
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: 55px;
-  margin-bottom: 32px;
+  height: 80px;
+  margin-bottom: 64px;
 `;
 
 export const HeaderLinkContainer = styled.div`

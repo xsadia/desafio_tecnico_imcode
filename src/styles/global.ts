@@ -2,14 +2,18 @@ import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
     :root {
-        --turquoise: #1ec9ad;
+        --turquoise: #8ad4c7;
     }
 
     * {
-        padding: 0;
         margin: 0;
-        background: #f8f8f8;
+        padding: 0;
         overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: #f8f8f8;
     }
 
     button, a {

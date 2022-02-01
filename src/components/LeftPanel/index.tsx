@@ -1,9 +1,16 @@
+import { ReactNode } from "react";
 import * as S from "./styles";
 
-export const LeftPanel = () => {
+type LeftPanelProps = {
+  children: ReactNode;
+  color: string;
+  height: number;
+};
+
+export const LeftPanel = ({ children, color, height }: LeftPanelProps) => {
   return (
-    <S.Container>
-      <h1>Panel here</h1>
+    <S.Container color={color} height={height}>
+      {children}
     </S.Container>
   );
 };

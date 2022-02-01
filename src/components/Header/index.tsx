@@ -5,10 +5,12 @@ export const Header = () => {
   return (
     <S.HeaderContainer>
       <S.HeaderLinkContainer>
-        <HeaderLink isActive>Início</HeaderLink>
-        <HeaderLink>Projeto</HeaderLink>
-        <HeaderLink>Contato</HeaderLink>
-        <HeaderLink>Equipe</HeaderLink>
+        <HeaderLink isActive href="#inicio">
+          Início
+        </HeaderLink>
+        <HeaderLink href="#projeto">Projeto</HeaderLink>
+        <HeaderLink href="#contato">Contato</HeaderLink>
+        <HeaderLink href="#equipe">Equipe</HeaderLink>
       </S.HeaderLinkContainer>
     </S.HeaderContainer>
   );

@@ -4,8 +4,13 @@ import * as S from "./styles";
 type HeaderLinkProps = {
   children: ReactNode;
   isActive?: boolean;
+  href: string;
 };
 
-export const HeaderLink = ({ children, isActive }: HeaderLinkProps) => {
-  return <S.Link isActive={isActive}>{children}</S.Link>;
+export const HeaderLink = ({ children, isActive, href }: HeaderLinkProps) => {
+  return (
+    <S.Link href="" isActive={isActive}>
+      {children}
+    </S.Link>
+  );
 };

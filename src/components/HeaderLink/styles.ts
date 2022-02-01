@@ -17,10 +17,10 @@ export const Link = styled.a<LinkProps>`
   ${(props) =>
     props.isActive &&
     css`
-      border-bottom: 2px solid #1ec9ad;
+      border-bottom: 2px solid var(--turquoise);
     `}
 
   &:hover {
-    border-bottom: 2px solid #1ec9ad;
+    border-bottom: 2px solid var(--turquoise);
   }
 `;

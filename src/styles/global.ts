@@ -1,6 +1,10 @@
 import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
+    :root {
+        --turquoise: #1ec9ad;
+    }
+
     * {
         padding: 0;
         margin: 0;

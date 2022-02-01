@@ -6,5 +6,5 @@ export const Container = styled.div`
   justify-content: space-between;
   width: 100vw;
   height: fit-content;
-  min-height: 360px;
+  //min-height: 360px;
 `;

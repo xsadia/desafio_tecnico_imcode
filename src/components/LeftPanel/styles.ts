@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 type ContainerProps = {
   color: string;
@@ -7,8 +7,9 @@ type ContainerProps = {
 
 export const Container = styled.div<ContainerProps>`
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  padding: 48px 180px;
   width: 50%;
   border-radius: 0 50px 50px 0;
   background: ${(props) => props.color};
